@@ -202,7 +202,7 @@ const seoInfo = {
 
 const seoKeyword = {
   seoKeyword1: seoInfo.keyword1 + " in " + seoInfo.localKeyword1,
-  seoKeyword15: seoInfo.keyword1 + " " + seoInfo.localKeyword1,
+  seoKeyword15: seoInfo.keyword1 + " in " + seoInfo.localKeyword1,
   seoKeyword2: seoInfo.keyword1 + " " + seoInfo.localKeyword2,
 
   seoKeyword3: seoInfo.keyword2 + " " + seoInfo.localKeyword1,
@@ -349,7 +349,7 @@ const processedInfo = {
 }
 
 const headerInput = {
-  headerTitle: "The best " + seoKeyword.seoKeyword15 + " - " + changedInfo.businessName,
+  headerTitle: "The best " + seoKeyword.seoKeyword15 + ", " + seoInfo.localKeyword2 + ", UK " + " - " + changedInfo.businessName,
   metaDescription: "Best " + seoKeyword.seoKeyword1 + ". " + "Friendly staff and excellent service. Treat yourself or enjoy with friends and family",
   relIcon: changedInfo.icon,
   relCanonical: changedInfo.businessWebsite,
