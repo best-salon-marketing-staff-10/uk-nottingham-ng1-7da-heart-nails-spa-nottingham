@@ -112,7 +112,7 @@ const changedInfo = {
   businessPhoneNumber: "07990099119",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://topnailsspa.web.app",
+  businessWebsite: "https://top-nails-exeter.web.app",
 
   linkBookingMap: "",
   linkBookingApp: "https://bit.ly/3DlalQ9",
