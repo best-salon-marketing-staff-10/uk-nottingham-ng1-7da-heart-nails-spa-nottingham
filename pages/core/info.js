@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://top-nails-exeter.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/3DlalQ9",
+  linkBookingApp: "https://appbooking.vdit.co.uk/Beauty/FindService/?cid=20220510111448468614",
   linkToMap: "https://goo.gl/maps/E3L6BSckRXskgFZM6",
 
   
