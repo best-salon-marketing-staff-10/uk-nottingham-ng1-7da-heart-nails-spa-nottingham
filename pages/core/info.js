@@ -112,7 +112,7 @@ const changedInfo = {
   businessPhoneNumber: "01159583632",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "",
+  businessWebsite: "https://heart-nails-spa-nottingham.web.app",
 
   linkBookingMap: "",
   linkBookingApp: "https://joybookings.com/heartnailsspanottingham/booking",
