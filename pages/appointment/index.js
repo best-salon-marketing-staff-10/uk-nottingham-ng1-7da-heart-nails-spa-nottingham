@@ -6,19 +6,16 @@ import "/node_modules/bootstrap/dist/css/bootstrap.css"
 import React, { useEffect } from "react";
 import Router from 'next/router';
 
+import FullScreenIframe from '/pages/components/FullScreenIframe';
+
 import { processedInfo } from '/pages/core/info';
 import { headerInput } from '/pages/core/info';
+import { changedInfo } from '/pages/core/info';
 
 export default function Appointment(){
   if (process.browser){
     document.oncontextmenu = new Function("return false;");
   }
-  useEffect(() => {
-    const {pathname} = Router
-    if(pathname == '/appointment' ){
-        Router.push(processedInfo.businessBookingLink)
-    }
-  });
 
   return (
     <>
@@ -49,9 +46,10 @@ export default function Appointment(){
           <meta property='og:image:width' content={headerInput.metaOgImageWidth} />
           <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
           <meta property="og:type" content='website' />
-
         </Head>
-
+        <div>
+          <FullScreenIframe src={changedInfo.linkBookingApp} />
+        </div>
     </>
   )
 }

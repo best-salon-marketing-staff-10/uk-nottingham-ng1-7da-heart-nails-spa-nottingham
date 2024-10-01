@@ -55,10 +55,7 @@ export default function Home() {
           <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
           <meta property="og:type" content='website' />
 
-          
           <meta name="google-site-verification" content={headerInput.metaGoogleSiteVerification} />
-
-          <meta name="google-site-verification" content="8PY9C4tyFxx-C0abTprXegCqjI9VHTxWzt57enQ1cNc" />
 
           <script
             type="application/ld+json"
